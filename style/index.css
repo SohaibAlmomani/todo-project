@@ -1,0 +1,98 @@
+* {
+  font-family: "Fira sans", sans-serif;
+}
+
+body {
+  flex-direction: column;
+  color: #fff;
+  background-color: rgb(38, 99, 129);
+  display: flex;
+}
+
+
+header {
+  padding: 1rem 1rem;
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+#newList {
+  display: flex;
+}
+
+input {
+  border: 1.5rem;
+  background: none;
+}
+
+#input {
+  flex: 2 2 0%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+}
+
+#add {
+  color: rgb(247, 253, 76);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+main {
+  max-width: 80%;
+  width: 100%;
+  margin: auto;
+}
+
+.list {
+  padding: 1rem;
+}
+
+#tasks .task {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text {
+  display: flex;
+  background-color: none;
+}
+
+.content {
+  flex: 1 1 0%;
+}
+
+.text {
+  color: rgb(109, 109, 109);
+  font-size: 1.5rem;
+}
+
+.task .actions .edit {
+  text-size-adjust: 1rem;
+  color: rgb(238, 192, 9);
+  border: rgb(0, 0, 0);
+  border-style: groove;
+}
+
+.delete {
+  color: crimson;
+}
+
+.task .actions button {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  border: rgb(0, 0, 0);
+  border-style: groove;
+  border-radius: 1.5rem;
+}
