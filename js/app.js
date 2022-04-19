@@ -1,3 +1,4 @@
+/* This is the solution of task 4
 alert("welcome")
 
 var name = prompt("inter your name");
@@ -28,5 +29,7 @@ switch (welAlert) {
     default:
         break;
 }
+*/
+
 
 
