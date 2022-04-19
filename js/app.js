@@ -1,5 +1,8 @@
 alert("welcome")
 
+// This is Asolution of Task 4
+/*
+
 var name = prompt("inter your name");
 
 var gender = prompt("inter your gender -male/female");
@@ -28,5 +31,17 @@ switch (welAlert) {
     default:
         break;
 }
+*/
+
+let Q1 =prompt("Are you male ?");
+let Q2 =prompt("Are you Jordanian ?");
+let Q3 =prompt("Are you looking for a job ?");
+
+switch(Q1,Q2,Q3){
+
+    case yes :
+}
+
+
 
 
