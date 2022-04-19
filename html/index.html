@@ -10,20 +10,26 @@
     <link rel="stylesheet" href="../style/index.css" />
 </head>
 
-<body>
-    <div id="nav"> 
-        <img src="../assets/todo logo.png" alt="" srcset="" width="70px">
-        <button onclick="document.location='about.html'">About Us</button>
-    </div>
-
 
     <header>
+
+        <img src="../assets/todo logo.png" alt="" srcset="" width="70px">
+
+        <nav class="nav">
+
+            <button onclick="document.location='index.html'">home</button>
+            <button onclick="document.location='about.html'">About Us</button>
+        </nav>
+
+    </header>
+<body>
+    <section class="sectodo">
         <h1>ToDo List</h1>
         <form id="newList">
             <input type="text" id="input" placeholder="what will you do ?" />
             <input type="submit" id="add" value="ADD" />
         </form>
-    </header>
+    </section>
 
     <main>
         <section class="list">
@@ -41,9 +47,34 @@
                     </div>
                 </div>
 
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="A new task" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="A new task" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="copy">
+             &copy; 2022 ASAC All rights reserved
+        </div>
+    </footer>
 </body>
 
 </html>
