@@ -2,4 +2,10 @@
 
 This is my wirefram to build a ToDo List website .
 
-![todolist](./assest/ToDo-List.png)
+Home page :
+
+![todolist](./assest/index-ToDo-List.png)
+
+About page :
+
+![todolist](./assest/about-ToDo-List.png)

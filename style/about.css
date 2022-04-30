@@ -1,0 +1,92 @@
+* {
+    font-family: "Fira sans", sans-serif;
+  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  header {
+    background-color: rgb(55, 42, 42);
+    border-bottom: rgb(255, 255, 255);
+    display: flex;
+    padding: 1.5rem 7%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  body {
+    flex-direction: column;
+    color: rgb(2, 0, 0);
+    background-color: rgb(38, 99, 129);
+    display: flex;
+  }
+  .us {
+    justify-content: center;
+    padding: 4rem 7%;
+    align-items: center;
+  }
+  
+  .img {
+    padding: 2rem;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  #email {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  #tel {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  footer {
+    background-color: rgb(55, 42, 42);
+    font-size: 15px;
+    font-weight: 300;
+    display: flex;
+    padding: 1.5rem 7%;
+    justify-content: center;
+  }

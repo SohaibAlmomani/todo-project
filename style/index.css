@@ -1,5 +1,10 @@
 * {
   font-family: "Fira sans", sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
@@ -8,9 +13,16 @@ body {
   background-color: rgb(38, 99, 129);
   display: flex;
 }
-
-
 header {
+  background-color: rgb(55, 42, 42);
+  border-bottom: rgb(255, 255, 255);
+  display: flex;
+  padding: 1.5rem 7%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectodo {
   padding: 1rem 1rem;
   max-width: 80%;
   width: 100%;
@@ -41,7 +53,7 @@ input {
 }
 
 #add {
-  color: rgb(247, 253, 76);
+  color: rgb(79, 255, 35);
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -81,8 +93,8 @@ main {
 .task .actions .edit {
   text-size-adjust: 1rem;
   color: rgb(238, 192, 9);
-  border: rgb(0, 0, 0);
-  border-style: groove;
+  border: none;
+  border-radius: 0.2rem;
 }
 
 .delete {
@@ -90,9 +102,19 @@ main {
 }
 
 .task .actions button {
-  font-size: 1.125rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  border: rgb(0, 0, 0);
-  border-style: groove;
-  border-radius: 1.5rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+footer {
+  
+  background-color: rgb(55, 42, 42);
+  font-size: 15px;
+  font-weight: 300;
+  display: flex;
+  padding: 1.5rem 7% ;
+  justify-content: center;
+  height: auto;
+
 }
