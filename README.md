@@ -2,4 +2,4 @@
 
 This is my wirefram to build a ToDo List website .
 
-![todolist](./assest/ToDo-List.png)
+![todolist](./assets/ToDo-List.png)
