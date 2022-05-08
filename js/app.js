@@ -1,3 +1,4 @@
+/* This is the solution of task 4
 alert("welcome")
 
 // This is Asolution of  Task 4
@@ -32,6 +33,7 @@ switch (welAlert) {
         break;
 }
 */
+
 //Task 6 :
 
 
@@ -97,7 +99,6 @@ function your_job(job) {
     }
 }
 
-
 /*
 
 function your_study(){
@@ -148,9 +149,3 @@ console.log ( arr[i] );
 }
 
 */
-
-
-
-
-
-
